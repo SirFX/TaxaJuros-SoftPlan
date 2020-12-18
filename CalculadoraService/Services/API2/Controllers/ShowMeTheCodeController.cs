@@ -25,9 +25,9 @@ namespace API2.Controllers
         /// <response code="200">Url obtida com sucesso.</response>
         [HttpGet]
         [Route("/api/showmethecode")]
-        public async Task<IActionResult> ShowMeTheCode()
+        public IActionResult ShowMeTheCode()
         {
-            return Ok(await _service.GetUrlProjeto());
+            return Ok(_service.GetUrlProjeto());
         }
 
     }

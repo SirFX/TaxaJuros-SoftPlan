@@ -8,6 +8,6 @@ namespace API2.Infra.Interface
 {
     public interface IShowMeTheCodeService
     {
-        Task<string> GetUrlProjeto();
+        string GetUrlProjeto();
     }
 }
