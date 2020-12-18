@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JurosService.api</name>
+    </assembly>
+    <members>
+        <member name="M:JurosService.api.Controllers.V1.TaxaJurosController.Get">
+            <summary>
+            Obter a taxa de juros.
+            </summary>
+            <response code="200">A taxa de juros foi obtida com sucesso.</response>
+        </member>
+    </members>
+</doc>
